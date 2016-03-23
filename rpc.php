@@ -2,7 +2,7 @@
 require_once("clientDB.php.inc");
 
 $request = $_POST['request'];
-$response = "FUCK<p>";
+
 switch($request)
 
 {

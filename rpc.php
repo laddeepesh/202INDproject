@@ -11,7 +11,7 @@ switch($request)
 	$password = $_POST['password'];
 	$login = new clientDB("connect.ini");
 	$response = $login->validateClient($username,$password);
-	if ($response['success']===true)
+	if ($response['success']==true)
 	{
 		$response = "Congrats Login Successful Bless up!<p>";
 	}

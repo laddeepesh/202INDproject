@@ -1,4 +1,3 @@
-#!/usr/bin/php
 <?php
 require_once("clientDB.php.inc");
 
@@ -22,5 +21,5 @@ switch($request)
 	}
 	break;
 }
-echo $response;
+
 ?>
